@@ -22,5 +22,5 @@ $ docker build -t <username_docker_hub>/<project_name>:<version> .
 ## How to run?
 
 ```bash
-$ docker run -it <java_simple_project_21_docker>
+$ docker run -p 8080:8080 -d <login_hub>/<project_name>:<version>
 ```
